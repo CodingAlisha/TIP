@@ -1,0 +1,41 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner {
+    height: 95vh;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: calc(-50vw + 50%);
+    flex: none;
+    align-self: stretch;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.socialLinks{
+    position: absolute;
+    bottom:15px;
+    left:15px;
+    display: flex;
+    gap:0.5rem;
+}
+
+.socialIcon{
+    display: inline-block;
+}
+
+.socialIconImg{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}

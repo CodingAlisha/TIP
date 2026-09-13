@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Concert+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Concert+One&family=Syne+Mono&display=swap');
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.navContainer {
+    list-style-type: none;
+    background-color: #ffff;
+    height: 2rem;
+    margin-right:0;
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-family: 'Syne Mono', monospace;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.navLinks:hover {
+    color: #E6AF2E;
+}
