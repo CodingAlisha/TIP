@@ -1,5 +1,60 @@
 
 
-.SocialIcon {
-    font-size: medium;
+.streamCard {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 65rem;
+    height: 20rem;
+    /* width: 920px;
+    height: 250px; */
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        
+
+}
+
+.streamText {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.streamImg {
+   width: 30%;
+   height: auto;
+   border-radius: 8px solid black;
+   
+}
+
+.streamTitle {
+    margin: 0.5rem 0 0 0;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 4rem;
+    color:#e9af4d;
+}
+
+.streamSubTitle {
+    margin: 0.25rem 5;
+    font-size: 1.3rem;
+    font-weight: 400;
+    /* margin-top: 1rem; */
+    color:#e9af4d;
+}
+
+.streamSocialImg {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.streamSocialIconImg {
+    width: 10%;
+    height: auto;
+    margin-right: 20px;
+    /* margin-bottom: 5px; */
 }

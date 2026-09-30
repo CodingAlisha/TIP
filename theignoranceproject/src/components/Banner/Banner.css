@@ -25,7 +25,7 @@ body {
 .socialLinks{
     position: absolute;
     bottom:15px;
-    left:15px;
+    right:15px;
     display: flex;
     gap:0.5rem;
 }

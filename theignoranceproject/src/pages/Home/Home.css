@@ -39,8 +39,10 @@ h1 {
 }
 
 .sectionTwo {
-    background-color: rgb(50, 48, 48);
+    background-color: #F5EFE3;
     width: 100%;
-    height: 80%;
+    height: 65vh;
+    padding-bottom: 2rem;
+    margin-top: 5rem;
 }
 

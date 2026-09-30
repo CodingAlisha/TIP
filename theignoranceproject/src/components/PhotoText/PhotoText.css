@@ -1,0 +1,28 @@
+
+
+.photoAndText {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+}
+
+.photoImg {
+    width: 460px;
+    height: 40rem;
+    border-radius: 190px;
+    padding: 2rem 4rem 1rem 4rem;
+}
+
+.TextTitle {
+    font-size: x-large;
+    color: #7a5404;
+    
+}
+
+.TextDes {
+    display: block;
+    font-size: larger;
+    color: #7a5404;
+    /* color: #b37c06; */
+}

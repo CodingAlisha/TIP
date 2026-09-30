@@ -1,16 +1,28 @@
 
-h1 {
-    color: #E6AF2E;
+
+.aboutPage {
+    background-color: black;
+}
+
+
+.heading {
+    color: #7a5404;
+    padding: 5rem 5rem 1rem 5rem;
+}
+.title {
+    color: #7a5404;
    
 }
 
 
 .specialWord {
     font-family: 'Allure', cursive;
+    color: #7a5404;
 }
 
 .aboutSummary {
     font-family: 'Concert One', sans-serif;
     padding: 5px;
     margin: 10px;
+    color: #7a5404;
 }

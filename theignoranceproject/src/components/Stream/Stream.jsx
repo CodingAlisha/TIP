@@ -1,13 +1,28 @@
 import React from 'react'
+import './Stream.css'
 
-const Stream = ({ img, imgAlt, title}) => {
+const StreamCard = ({ img, imgAlt, title, subTitle, socialImg}) => {
   return (
-    <div className= 'StreamCard'>
-        <img src ={img} alt ={imgAlt} className='StreamImg' />
+    <div className= 'streamCard'>
+        <img src ={img} alt ={imgAlt} className='streamImg' />
 
-        <div>
-            <h1 title={title}> </h1>
-        </div>
+        <div className='streamText'>
+
+            <h1 className='streamTitle'>{title}</h1>
+            <p className='streamSubTitle'>{subTitle}</p>
+           
+
+            <div className='streamSocialImg'>
+            <a href={socialImg.link}>
+              <img 
+              src ={socialImg.icon} 
+              alt={socialImg.alt} 
+              className='streamSocialIconImg' 
+              />
+              </a>
+         </div>
+            </div>
+       
 
 
     </div>
@@ -16,4 +31,4 @@ const Stream = ({ img, imgAlt, title}) => {
   )
 }
 
-export default Stream;
+export default StreamCard;
