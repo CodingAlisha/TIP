@@ -12,7 +12,9 @@ const PhotoText = ({ img, imgAlt, title, description}) => {
 
         <div className='TextInfo'>
             <h1 className='TextTitle'>{title}</h1>
-            <p className='TextDes'>{description}</p>
+            {description.map ((paragraph, index) => (
+                <p className='TextDes' key={index}>{paragraph}</p>
+            ))}
         </div>
       
     </div>

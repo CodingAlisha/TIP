@@ -1,0 +1,42 @@
+
+
+/* .infoContentContainer {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+} */
+
+
+.infoContentContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.descriptionLeft {
+    flex: 1;
+}
+
+.descriptionRight {
+    flex: 1;
+    text-align: right;
+}
+
+h2 {
+    font-family: 'Cormorant';
+    font-size:xx-large;
+    color: #7a5404;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+p {
+    display: block;
+    font-size: larger;
+    color: #7a5404;
+    margin: 3rem;
+    display: block;
+    /* padding: 2px;
+    margin-right: 10px; */
+}

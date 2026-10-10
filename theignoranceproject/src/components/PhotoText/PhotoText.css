@@ -15,7 +15,7 @@ gap: 10px;
 }
 
 .TextTitle {
-    font-size: x-large;
+    font-size:xx-large;
     color: #7a5404;
     
 }
@@ -24,5 +24,6 @@ gap: 10px;
     display: block;
     font-size: larger;
     color: #7a5404;
-    /* color: #b37c06; */
+    padding: 2px;
+    margin-right: 10px;
 }
